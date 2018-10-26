@@ -1,7 +1,7 @@
 // Föräldern sjunger och barnet lyssnar
 // console.log("blinka lilla stjärna där");
 // console.log("blinka lilla stjärna där");
-// console.log("hur jag undrar var du är");
+// console.log("garbage teast");
 // console.log("likt en diamant i skyn");
 
 //barnet nynnar med
