@@ -1,6 +1,6 @@
 //fresh
 document.getElementsByTagName("button")[0].addEventListener("click",menu);
-//in the button click starts the while loop
+//on the button click starts the while loop
 function menu(vector) { //runs the function meny and creates a empty array
     var vector = [];
     var input = 0;
