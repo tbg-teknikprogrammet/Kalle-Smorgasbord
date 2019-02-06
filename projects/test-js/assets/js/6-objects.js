@@ -1,48 +1,26 @@
-var person = ["Sid", 31, "EagleShieldBay"];
+var movies = [
+    {
+        title: "Avengers: Infinity war",
+        rating: 10,
+        seen: true
+    },
+    {
+        title: "What happend to monday",
+        rating: 8.5 ,
+        seen: true
+    },
+    {
+        title: "the room",
+        rating: 3.7,
+        seen: false
+    }
+]
 
-console.log(person[2]);
-
-var person2 = [31, "Livelong", "Bill"];
-
-console.log(person2[1]);
-
-var person = {
-    name: "Bob",
-    age:29,
-    hometown: "Heresneezedduck"
-};
-
-console.log("This person's name is: " + person.name);
-
-console.log(person.age);
-
-person.age += +1;
-
-console.log(person.age);
-
-var oddNums = {};
-oddNums.int = 1;
-oddNums.str = "one";
-oddNums.isOdd = true;
-
-var dog = {
-    name: "Doggo",
-
-}
-
-var posts = [gunnila, bert];
-
-var gunilla = {
-    auther: "astrid lindgren",
-    title: "pipi",
-    comments: "this is a very shit comment"
-
-};
-
-bert = {
-    auther: "lindgren",
-    title: "zipi",
-    comments: "this is a very bad comment"
-};
-
-console.log posts.lenght
+movies.forEach(function(movie) {
+    if (movie.seen == true) {
+    console.log("The title is " + movie.title + ", it has a rating of " + movie.rating +" and you have seen it")
+    }
+    else{
+        console.log("The title is " + movie.title + ", it has a rating of " + movie.rating +" and you have not seen it")
+    }
+});

@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+    background-color: #34495e;
+    color:#fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 20px 0px 0px 50px;
+}
+.some-class {
+    color: orangered;
+    transform:rotate(180deg);
+    font-style:italic;
+}
+.dogshit {
+    background-color: purple;
+    font-style:oblique;
+    font-size: 66px;
+}
